@@ -1,0 +1,67 @@
+body {
+    background-color: aqua;
+}
+
+.header {
+    width: 2560px;
+    height: 260px;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    transition: 0.5s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1:hover {
+    color: purple;
+    scale: 1.5;
+}
+
+nav {
+    position: relative;
+    display: inline;
+    left: 550px;
+    text-align: centerr;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+    transition: 0.5s ease;
+}
+
+nav a:hover {
+    background-color: rgb(15, 0, 128);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
